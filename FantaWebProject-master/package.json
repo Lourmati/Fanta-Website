@@ -1,0 +1,32 @@
+{
+  "name": "fantawebproject",
+  "version": "1.0.0",
+  "description": "GoGoJuice school project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nphalakhone/FantaWebProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nphalakhone/FantaWebProject/issues"
+  },
+  "homepage": "https://github.com/nphalakhone/FantaWebProject#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bcrypt": "^4.0.0",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.6",
+    "pug": "^2.0.4"
+  }
+}

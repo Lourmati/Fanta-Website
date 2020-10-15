@@ -1,0 +1,24 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(https://www.elsetge.cat/myimg/f/194-1942296_beach-clean-sky-skyline-sunset-wallpaper-sunset-wallpaper.jpg);
+    background-size: cover;
+}
+.tableauInfo table, th, td {
+    border: 2px solid grey;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15 px;
+    text-align: center;
+    color: white;
+}
+
+th {
+    background-color: grey;
+}
+
+td:hover {
+    background-color: silver;
+    color: orangered;
+}

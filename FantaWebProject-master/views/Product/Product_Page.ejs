@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Product</title>
+  <link rel="stylesheet" href="../assets/css/style_product.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="../assets/js/quantity_script.js"></script>
+  <script type="text/JavaScript" script src="../assets/js/fetch.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li class="active"><a href="/products"><i></i>Products</a></li>
+    <li><a href="/about"><i></i>About</a></li>
+    <%if (opp) { %>
+        <li><a href="/account"></i>Account</a></li>
+    <%} %>
+    <%if (opp) { %>
+        <li><a href="/logout"></i>Logout</a></li>
+    <%} else { %>
+        <li><a href="/login"></i>Sign in</a></li>
+    <%} %>
+    <li><a href="#" id="cart"><i class="fa fa-shopping-cart"></i> Cart <span class="badge" id="quantite_produit">0</span></a></li>
+    <script>
+        $(document).ready((function () {
+            $("#cart").on("click", function () {
+                 $(".shopping-cart").fadeToggle("fast");
+                 addHtmlElementsToCart();
+            });
+        })());
+        </script>
+        <div class="container">
+            <div class="shopping-cart" style="position: absolute;">
+                <div class="shopping-cart-header">
+                    <i class="fa fa-shopping-cart cart-icon"></i><span class="badge" id="nombre_total_produit">0</span>
+                    <div class="shopping-cart-total">
+                        <span class="lighter-text">Total:</span>
+                        <span class="main-color-text" id="total_price">$0.00</span>
+                    </div>
+                    </div>
+                    <ul class="shopping-cart-items" id="items">
+                            </ul>
+                        <a href="/checkout" class="button">Checkout</a>
+            </div>
+      </div>
+  </ul >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+<body>
+  <!-- <input type="checkbox" id="check">
+  <label for="check">
+    <i class="fas fa-bars" id="btn"></i>
+    <i class="fas fa-times" id="cancel"></i>
+  </label> -->
+  <!-- <div class="sidebar">
+    <header>Menu</header>
+    <ul>
+      <li><a href="/"><i class="fas fa-home"></i>Home</a></li>
+      <li><a href="/products"><i class="fas fa-stream"></i>Products</a></li>
+      <li><a href="/about"><i class="fas fa-question-circle"></i>About</a></li>
+      <li><a href="#"><i class="fas fa-envelope"></i>Contact</a></li>
+    </ul>
+  </div>
+  <div>
+    <a href="/login" class="buttonSignIn">Sign in</a>
+  </div> -->
+
+  <script>
+    loadPageProduct();
+    </script>
+
+
+
+
+</body>
+
+</html>

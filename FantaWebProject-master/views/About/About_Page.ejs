@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>About GOGO Juice</title>
+  <link rel="stylesheet" type="text/css" href="../../assets/css/style_about.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <ul>
+            <li><a href="/"><i></i>Home</a></li>
+            <li><a href="/products">Products</a></li>
+            <!-- 'active' met le bouton de la page dans le menu en valeur -->
+            <li class="active" id=""><a href="/about"><i></i>About</a></li>
+            <%if (opp) { %>
+            <li><a href="/account"></i>Account</a></li>
+            <%} %>
+            <%if (opp) { %>
+            <li><a href="/logout"></i>Logout</a></li>
+            <%} else { %>
+            <li><a href="/login"></i>Sign in</a></li>
+            <%} %>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="wrapper">
+    <h1 style="padding-top: 50px;">Notre équipe / Our Team</h1>
+    <div class="team">
+      <div class="team_member">
+        <div class="team_img">
+          <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/251_Pepsi-512.png" alt="Team_image">
+        </div>
+        <h2>Luke Woodley</h2>
+        <p class="role">Développeur principal / UI developer</p>
+        <p>Luke a participé au développement de l'interface utilisateur en structurant la page d'accueil et cette
+          page-ci(page À propos) et la page d'acceuil. Il a aussi crée le cart.
+          Dans notre dernier contrat, il a participé à la conception de l'intelligence artificielle du jeu de Pazaak.
+          Oussama et lui, on travaillé ensemble pour améliorer notre
+          développement javascript et SQL. Il a gradement travaille avec Oussama sur la page Produits, Liste Produits.
+        </p>
+      </div>
+      <div class="team_member">
+        <div class="team_img">
+          <img src="https://cdn.iconscout.com/icon/free/png-512/fanta-282449.png"
+            alt="Team_image">
+        </div>
+        <h2>Oussama Lourmati</h2>
+        <p class="role">Développeur principal et testeur / Principal Developer and Tester</p>
+        <p>Oussama a participé au développement des tests dans ce contrat et dans le dernier. Il a aussi amené ses idées
+          de design,
+          en développant la structure de la page de Login, Sign In, Produits, Liste Produits, Checkout. Luke et lui, on
+          travaillé ensemble grandement pour améliorer notre
+          développement Javascript et SQL.
+        </p>
+      </div>
+      <div class="team_member">
+        <div class="team_img">
+          <img src="https://lh3.googleusercontent.com/proxy/99QzVZndddwj0FjttMsL0irI-B5nPVpLd8xDDHsXDX9h5WH4stEw0cm5LlJHLBP-hAwF5rWNEoM09aK0GFV7LxBqAK0EsqZjOwoTsTlF0TV3fDxjIJNMnEQyH4a63O4lijQPwJDINl48AR0-HHcWJhNn1-chFiO19p-O153TUL0WKCfsaFDS"
+            alt="Team_image">
+        </div>
+        <h2>Guillaume de la Barrière</h2>
+        <p class="role">Développeur base de données / Data Base Developer</p>
+        <p>Guillaume a participé au projet en développant la composante la plus importante du projet, c'est-à-dire, le
+          serveur de notre site
+          et la base de données où nous entreposons toutes les informations des boissons, des commandes, des coordonnées
+          des clients qui ont achetés
+          sur notre site, des clients qui ont un compte sur notre site, etc. Il a beaucoup participé en tant que
+          administrateur de la base de données
+          en travaillant sur les fonctions de Login et de Sign Up.
+        </p>
+      </div>
+      <div class="team_member">
+        <div class="team_img">
+          <img src="http://icons.iconarchive.com/icons/michael/coke-pepsi/256/Coca-Cola-Can-icon.png" alt="Team_image">
+        </div>
+        <h2>Olivier Cadieux</h2>
+        <p class="role">Développeur en chef / Lead Developer</p>
+        <p>Olivier a participé au projet en distribuant les tâches et objectifs à ses membres et lui-même. Il s'assurait
+          que
+          le projet avance bien et que tout le monde mettait de l'effort. Il a participé au design graphique du site en
+          implémentant
+          les couleurs, la barre de menu et quelques autres fonctionnalites.
+        </p>
+      </div>
+      <div class="team_member">
+        <div class="team_img">
+          <img src="https://lh3.googleusercontent.com/proxy/kmbdFiu0xPlt1as2ZCJk23TWjCzAGoHop26r56xEkGw5V9h_nqP65OU5PhXIByjbCaY2w0Ioyorv3b5YMla5lTJZecu5h1ddSZ3Ir0Y6rFtQwCe0PbNPZU0fKL9o"
+            alt="Team_image">
+        </div>
+        <h2>Nick Phalakhone</h2>
+        <p class="role">Développeur / Developer</p>
+        <p>Nick a participé au projet en développant l'apparence et au fontionnement de la page d'information d'un produit. Il a aussi développer la page checkout,
+          qui permet aux utilisateurs de placer leur commande. L'inclusion de la BD était primordiale dans cette page, puisqu'elle permet, non seulement le passage des informations
+          du checkout dans la bd, elle permet aussi à l'admin de voir les commandes,
+          sans à rentrer dans la BD, grâce à la page de liste de commande pour administrateur, qu'il a aussi développé.
+        </p>
+      </div>
+
+
+    </div>
+  </div>
+
+</body>
+
+</html>

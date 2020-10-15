@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+body{
+    background-image: url(https://www.elsetge.cat/myimg/f/194-1942296_beach-clean-sky-skyline-sunset-wallpaper-sunset-wallpaper.jpg); /*https://wallpapercave.com/wp/wp4502320.jpg*/
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+  }
+  
+  
+  
+  .wrapper h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Allura', cursive;
+    font-size: 64px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+  
+  .team .team_member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;  
+    position: relative;
+  }
+  
+  .team .team_member h3{
+    color: #81c644;
+    font-size: 26px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .team .team_member p.role{
+    text-align: center;
+    color: #ccc;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .team .team_member .team_img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+  }
+  
+  .team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+  
+  h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: block;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: bold;
+  }
+
+  h2{
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  /* CSS Menu */ 
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
